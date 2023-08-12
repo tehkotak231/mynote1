@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF284563"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/dorkImg"
+        android:layout_width="280dp"
+        android:layout_height="277dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="50dp"
+        app:srcCompat="@mipmap/dork" />
+
+    <TextView
+        android:id="@+id/textPlease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dorkImg"
+        android:layout_marginTop="2dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="24px"
+        android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/textPlease"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/inputEmail"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@id/inputEmail"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/inputPassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Login"
+
+        android:id="@+id/btnLogin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="10dp"
+        android:text="Atau"
+        android:textAlignment="center"
+        android:id="@+id/OR"/>
+
+    <Button
+        android:id="@+id/btnLoginGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OR"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="30dp"
+        android:text="Login with Google" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/btnLoginGoogle"
+        android:id="@+id/progressBar"/>
+
+    <View
+        android:id="@+id/HR"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/btnLoginGoogle"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/notReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HR"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="-225dp"
+        android:layout_marginEnd="10dp"
+        android:text="Belum punya akun?" />
+
+    <Button
+        android:id="@+id/btnToRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HR"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="-234dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toRightOf="@id/notReg"
+        android:text="Register disini" />
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mynote</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Info"> Aplikasi Catatan Harian Upin dan Ipin dengan menggunakan Firebase Database adalah aplikasi yang berfungsi untuk membuat catatan . Aplikasi ini menggunakan Firebase Database untuk mengelola semua penyimpanan catatan . </string>
+</resources>

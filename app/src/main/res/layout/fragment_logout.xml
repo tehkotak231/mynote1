@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FF284563"
+    tools:context=".LogoutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAlignment="center"
+        android:id="@+id/textEmail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textEmail"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="Logout"
+        android:backgroundTint="@color/purple_500"
+        android:id="@+id/btnLogout"/>
+
+</RelativeLayout>

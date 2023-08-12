@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "67209715993",
+    "firebase_url": "https://upin-533a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "upin-533a2",
+    "storage_bucket": "upin-533a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67209715993:android:9cf0ca8cad560f36c46588",
+        "android_client_info": {
+          "package_name": "com.ipin.mynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67209715993-ujemcn7ttpa08umnlrm16kfl3ki1ifqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ipin.mynote",
+            "certificate_hash": "2023d15909f696eea9d5b9d2fef1d3c863467fd4"
+          }
+        },
+        {
+          "client_id": "67209715993-q85pcmm897krl7t1kt6obfjtr3nnkmuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0XMtVarZOjcnn28KKEiuhWzt_5UGv0p8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67209715993-q85pcmm897krl7t1kt6obfjtr3nnkmuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

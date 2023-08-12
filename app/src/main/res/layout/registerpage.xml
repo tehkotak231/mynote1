@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#284563"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegisterPage">
+
+    <ImageView
+        android:id="@+id/dorkImg"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="50dp"
+        app:srcCompat="@mipmap/dork" />
+
+    <TextView
+        android:id="@+id/textPlease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dorkImg"
+        android:layout_marginTop="2dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="24px"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/fieldEmail"
+        android:layout_below="@id/textPlease">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/inputEmail"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/fieldPassword"
+        android:layout_below="@id/fieldEmail">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/inputPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fieldPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Register"
+        android:id="@+id/btnRegis"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegis"
+        android:visibility="gone"
+        android:id="@+id/progressBar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="175dp"
+        android:background="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/HR"
+        android:layout_below="@id/btnRegis"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HR"
+        android:text="Sudah punya akun?"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/notReg"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HR"
+        android:layout_toRightOf="@id/notReg"
+        android:text="Login disini"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnToLogin"/>
+
+
+</RelativeLayout>
